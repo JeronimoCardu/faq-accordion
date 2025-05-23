@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: workSansBold;
+  src: url(/assets/fonts/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: workSansSemiBold;
+  src: url(/assets/fonts/WorkSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: workSansRegular;
+  src: url(/assets/fonts/WorkSans-Regular.ttf);
+}
+
+@theme {
+  --color-purple-950: #301534;
+  --color-purple-600: #8b6990;
+  --color-purple-100: #f8eeff;
+
+  --color-violet: #ad28eb;
+
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1440px;
+}
+
+@layer base {
+  .textPreset1 {
+    font-family: workSansBold;
+    font-size: 3.5rem;
+    line-height: 4.125rem;
+  }
+  .textPreset2 {
+    font-family: workSansSemiBold;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+  }
+  .textPreset3 {
+    font-family: workSansRegular;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
