@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [SITE](https://your-live-site-url.com)
+- Live Site URL: [SITE](https://faq-accordion-zoqn.vercel.app/)
 
 ## My process
 
